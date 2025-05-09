@@ -12,7 +12,7 @@ table Sales
 		lineageTag: 94141404-6d60-41fe-a767-7af9150d25b2
 
 	measure 'First Sale' = FIRSTDATE(Sales[Date])
-		formatString: m/d/yyyy
+		formatString: mm/dd/yyyy
 		displayFolder: Date Metrics
 		lineageTag: 57b47456-57b9-4248-9600-2497e60f375c
 
